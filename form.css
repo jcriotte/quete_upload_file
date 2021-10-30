@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    padding-top: 10px;
+    letter-spacing: 5px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+form {
+    width: 80%;
+    height: 60%;
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 15px grey;
+    padding: 10px;
+    margin: 0 auto;
+}
+.thanksandreturn {
+    width: 80%;
+    height: 60%;
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 15px grey;
+    padding: 10px;
+    margin: 0 auto; 
+}
+div.form {
+    margin: 10px;
+}
+label, input {
+    margin-bottom: 10px;
+}
+input {
+ 
+    /* Pour s'assurer que tous les champs texte ont la même police.
+      Par défaut, les textarea ont une police monospace */
+   font: 1em sans-serif;
+   /* Pour que tous les champs texte aient la même dimension */
+   width: 70%;
+   box-sizing: border-box;
+ 
+   /* Pour harmoniser le look & feel des bordures des champs texte */
+   border: 1px solid #999;
+}
+button a {
+    text-decoration:none;
+}
+label {
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+}
+.lastArticle {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 50%;
+    width: 50%;
+    margin-top: 4em;
+}
+.container {
+    width: 100%;
+}
+@media screen and (min-width:1230px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        padding-right: 10px;
+        text-align: center;
+    }
+    .lastArticle {
+        display: flex;
+        justify-content: center; 
+        align-items: baseline;
+        flex-flow: row wrap;
+        height: 500px;
+    }
+    .thanksandreturn {
+        width: 80%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+        box-shadow: 0px 0px 15px grey;
+        padding: 10px;
+        margin: 0 auto; 
+    }
+}
